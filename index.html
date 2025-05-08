@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <section class="container_moedas">
+        <h1 class="texto_moedas">Escolha duas moedas para realizar a conversão!</h1>
+
+        <form class="formulario_moedas">
+            <h2 class="texto_moedas">Moedas</h2>
+            <select class="moedas_input" id="moeda">
+            <option value="Real">Real</option>
+            <option value="Dólar">Dólar</option>
+        </select>
+        </form>
+    </section>
+
+    <section class="botao_conversao">
+        <button onclick="converterMoeda()">Converter</button>
+        <button onclick="limpar()">Limpar</button>
+    </section>
+</body>
+</html>
