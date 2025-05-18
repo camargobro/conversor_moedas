@@ -1,0 +1,44 @@
+body {
+    background-color: #EFD6AC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1 {
+    color: #183A37;
+
+}
+
+h2 {
+    color: #183A37;
+    text-align: center;
+}
+
+p {
+    color: #432534;
+}
+
+.container_texto_conversao {
+    text-align: center;
+}
+
+#moeda_destino,
+#moeda_origem,
+#converter {
+
+    background-color: #c2b8a7;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+footer {
+    background-color: #c2b8a7;
+}
+
+header {
+    background-color: #c2b8a7;
+    text-align: center;
+    padding: 20px;
+}
