@@ -10,11 +10,20 @@
     <section class="container_moedas">
         <h1 class="texto_moedas">Escolha duas moedas para realizar a conversão!</h1>
 
-        <form class="formulario_moedas">
-            <h2 class="texto_moedas">Moedas</h2>
-            <select class="moedas_input" id="moeda">
-            <option id= "euro" value="euro">Euro</option>
-            <option id= "dolar" value="dolar">Dólar</option>
+            <form class="formulario_moedas_origem">
+            <h2 class="texto_moedas_origem">Converter de:</h2>
+            <select class="moedas_destino_input" id="moeda_destino">
+            <option value="EUR">Euro</option>
+            <option value="USD">Dólar</option>
+            <option value="BRL">Real</option>
+        </select>
+        </form>
+        <form class="formulario_moedas_destino">
+            <h2 class="texto_moedas_destino">Para:</h2>
+            <select class="moedas_destino_input" id="moeda_origem">
+            <option value="EUR">Euro</option>
+            <option value="USD">Dólar</option>
+            <option value="BRL">Real</option>
         </select>
         </form>
     </section>
